@@ -1,5 +1,7 @@
 # Personal Firewall and Network Monitoring Project
 
+https://youtu.be/8e9fvWeB99Q
+
 ## Overview
 
 This project demonstrates how to configure a personal firewall and set up network monitoring on a Windows system. It highlights the use of Windows Defender Firewall, PowerShell, Wireshark, and Nmap to secure a machine by controlling network traffic, monitoring real-time traffic, and analyzing logs for potential threats.
@@ -16,6 +18,18 @@ The purpose of this project is to simulate real-world scenarios where a machine 
 - **Nmap**: A network scanning tool used to test firewall effectiveness by simulating network scans and attacks.
 
 ---
+
+### Firewall Log Screenshot
+
+This screenshot shows the firewall logs, where I enabled logging for both dropped and successful connections. Reviewing these logs is essential for detecting any unauthorized access attempts.
+
+![Firewall Log Screenshot](./firewall_log_screenshot.png)
+
+### Wireshark Traffic Capture Screenshot
+
+This screenshot displays the Wireshark interface capturing live network traffic, where specific filters are applied to identify types of packets, such as SYN packets in a potential SYN flood attack.
+
+![Wireshark Screenshot](./wireshark_screenshot1.png)
 
 ## Project Setup
 
